@@ -2,10 +2,41 @@
   <head>
     <title>Todo Application</title>
     <script type="module" src="./index.js"></script>
+    <style>
+      .show, .hide {
+        animation-duration: 0.5s;
+        animation-timing-function: ease-in-out;
+        animation-name: fadein;
+      }
+      .hide {
+        opacity: 0;
+        animation-name: fadeout;
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes fadeout {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
   <body>
     <h1>Todo List</h1>
-    <content id="list-content"></content>
+    <section id="list-content"></section>
+    <section id="list-finished">
+      <p><button id="toggle-finished">Show finished</button></p>
+      <ul class="hide"></ul>
+    </section>
   </body>
   <template id="list-template">
     <h2></h2>
@@ -20,6 +51,11 @@
     <li>
       <input type="checkbox" />
       <span>Want to do</span>
+    </li>
+  </template>
+  <template id="finished-template">
+    <li>
+      <span>Want been finished</span>
     </li>
   </template>
 </html>

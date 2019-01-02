@@ -9,11 +9,12 @@ simulating working environment.
 
 - Setup the project on your own by following the instruction in this README.
 - You are free to use internet resource as in your normal working condition.
-- Write a bugs report according to the video (link)[http://youtube.com/]
 - Fix all issue label as bug at issue tracker.
   - Send PR against master
   - Commit atomically.
   - Write good commits message as it will help reviewer to read
+- Write a bug report according to this [video](https://youtu.be/UnTFP1kvsS0)
+  - Please also provide a fix to the bug.
 
 ## Evaluation
 

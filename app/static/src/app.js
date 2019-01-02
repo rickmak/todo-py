@@ -43,7 +43,7 @@ export default class TodoApp {
     this.button = el.querySelectorAll("button")[0];
     this.input = el.querySelectorAll("input")[0];
     container.appendChild(el);
-    this.container = container
+    this.container = container;
     this.list.map(this.appendItem);
     this.bind();
     return this.container;
