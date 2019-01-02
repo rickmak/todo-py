@@ -1,9 +1,25 @@
 <html>
   <head>
     <title>Todo Application</title>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
   </head>
   <body>
     <h1>Todo List</h1>
+    <content id="list-content"></content>
   </body>
+  <template id="list-template">
+    <h2></h2>
+    <ul>
+    </ul>
+    <p>
+      <input type="text" />
+      <button>Add</button>
+    </p>
+  </template>
+  <template id="item-template">
+    <li>
+      <input type="checkbox" />
+      <span>Want to do</span>
+    </li>
+  </template>
 </html>

@@ -27,6 +27,7 @@ simulating working environment.
 
 - docker 18+
 - docker-compose 1.23+
+- Chrome 71+
 
 ### Kick start development
 
@@ -34,4 +35,4 @@ simulating working environment.
 docker-compose --build up
 ```
 
-Visit http://localhost:6543/
+Visit `http://localhost:6543/static/index.html`
