@@ -1,4 +1,6 @@
-#todo-py
+# todo-py
+
+
 A simple todo application that run in browser, including persistence to
 database.
 
@@ -15,10 +17,15 @@ simulating working environment.
   - Write good commits message as it will help reviewer to read
 - Write a bug report according to this [video](https://youtu.be/UnTFP1kvsS0)
   - Please also provide a fix to the bug.
+- File any bugs/issue you found.
+- Above task are in priority, higher position task with higher priority.
 
 ## Evaluation
 
 - We look for clean and maintainable code.
+- We care about commit and message quality.
+  - https://blog.oursky.com/2017/11/17/care-commit-quality/
+  - https://chris.beams.io/posts/git-commit/
 - Simplicity and clarity weight over speed.
 - How you fix the problem is more important than how fast you fix time.
 
@@ -33,7 +40,7 @@ simulating working environment.
 ### Kick start development
 
 ```
-docker-compose --build up
+docker-compose up --build
 ```
 
 Visit `http://localhost:6543/static/index.html`
