@@ -26,6 +26,8 @@ simulating working environment.
 - We care about commit and message quality.
   - https://blog.oursky.com/2017/11/17/care-commit-quality/
   - https://chris.beams.io/posts/git-commit/
+- We are using rebase workflow
+  - http://kensheedlo.com/essays/why-you-should-use-a-rebase-workflow/
 - Simplicity and clarity weight over speed.
 - How you fix the problem is more important than how fast you fix time.
 
